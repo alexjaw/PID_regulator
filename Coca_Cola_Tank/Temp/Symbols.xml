@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols>
+  <Symbol FileName="rocker switch2 off.lib" Transparent="false" Width="73" Height="100" />
+  <Symbol FileName="rocker switch2 on.lib" Transparent="false" Width="73" Height="100" />
+  <Symbol FileName="rocker switch off.lib" Transparent="false" Width="47" Height="63" />
+  <Symbol FileName="rocker switch on.lib" Transparent="false" Width="47" Height="63" />
+</Symbols>

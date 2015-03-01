@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.15.5751.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="DecoratedItem" Target="Screen1.TrendViewer.Curve1" TargetProperty="DataSourceName" Source="Tags.SP_tank" />
+        <Item xsi:type="DecoratedItem" Target="Screen1.TrendViewer.Curve2" TargetProperty="DataSourceName" Source="Tags.PV_tank" />
+        <Item xsi:type="DecoratedItem" Target="Screen1.TrendViewer.Curve3" TargetProperty="DataSourceName" Source="Tags.Inflöde" />
+        <Item Target="Screen1.AnalogNumeric1" TargetProperty="Value" Source="Tags.Kc" />
+        <Item Target="Screen1.AnalogNumeric2" TargetProperty="Value" Source="Tags.Ti" />
+        <Item Target="Screen1.AnalogNumeric3" TargetProperty="Value" Source="Tags.Td" />
+        <Item Target="Screen1.AnalogNumeric4" TargetProperty="Value" Source="Tags.Inflöde" />
+        <Item xsi:type="ActionItem" Target="Screen1.Group.MultiPicture" TargetProperty="Actions" Source="Tags.HMI_PID_Auto" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="Screen1.Group.MultiPicture" TargetProperty="Value" Source="Tags.HMI_PID_Auto" />
+        <Item Target="Screen1.Slider" TargetProperty="Value" Source="Tags.HMI_Out" />
+        <Item Target="Screen1.Slider" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.HMI_PID_Auto" />
+        <Item Target="Screen1.Slider1" TargetProperty="Value" Source="Tags.PV_tank" />
+        <Item Target="Screen1.Slider2" TargetProperty="Value" Source="Tags.SP_tank" />
+        <Item Target="Screen1.LinearMeter" TargetProperty="Value" Source="Tags.Inflöde" />
+        <Item xsi:type="ActionItem" Target="Screen1.MultiPicture1" TargetProperty="Actions" Source="Tags.HMI_Start_Stopp" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="Screen1.MultiPicture1" TargetProperty="Value" Source="Tags.HMI_Start_Stopp" />
+        <Item xsi:type="ActionItem" Target="Screen1.Group1.MultiPicture2" TargetProperty="Actions" Source="Tags.HMI_Tank_Reset" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Screen1.Group1.MultiPicture2" TargetProperty="Actions" Source="Tags.HMI_Tank_Reset" Event="MouseUp" Action="Reset Tag" Param="" />
+        <Item Target="Screen1.Group1.MultiPicture2" TargetProperty="Value" Source="Tags.HMI_Tank_Reset" />
+      </Items>
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Screen1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Screen1.Group.MultiPicture" TargetProperty="Actions" Source="Tags.HMI_PID_Auto" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Screen1.MultiPicture1" TargetProperty="Actions" Source="Tags.HMI_Start_Stopp" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Screen1.Group1.MultiPicture2" TargetProperty="Actions" Source="Tags.HMI_Tank_Reset" Event="MouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Screen1.Group1.MultiPicture2" TargetProperty="Actions" Source="Tags.HMI_Tank_Reset" Event="MouseUp" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Screen1.Group.MultiPicture" Source="rocker switch2 off" Width="48" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.Group.MultiPicture" Source="rocker switch2 off" Width="48" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.Group.MultiPicture" Source="rocker switch2 on" Width="48" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture1" Source="rocker switch2 off" Width="48" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture1" Source="rocker switch2 off" Width="48" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture1" Source="rocker switch2 on" Width="48" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.Group1.MultiPicture2" Source="rocker switch off" Width="47" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.Group1.MultiPicture2" Source="rocker switch off" Width="47" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.Group1.MultiPicture2" Source="rocker switch on" Width="47" Height="63" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items>
+        <Item xsi:type="TrendViewerItem" Target="Screen1.TrendViewer" TrendWidth="584" TimeRangeBoundDataItem="" TimeRange="PT1M">
+          <DataSourceNames>
+            <DataSourceName>Tags.SP_tank</DataSourceName>
+            <DataSourceName>Tags.PV_tank</DataSourceName>
+            <DataSourceName>Tags.Inflöde</DataSourceName>
+          </DataSourceNames>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

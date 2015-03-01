@@ -1,0 +1,226 @@
+[Header Microsoft Windows NT 6.1.7601 Service Pack 1]
+2015-03-01 09:05:36,117 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2015-03-01 09:05:36,130 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ScreenManagerToolFull
+2015-03-01 09:05:36,133 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SymbolTool
+2015-03-01 09:05:36,134 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: MessageFilterTool
+2015-03-01 09:05:36,158 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: LicenseToolCF
+2015-03-01 09:05:36,175 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: OpcClientTool
+2015-03-01 09:05:36,175 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: CommandLineTool
+2015-03-01 09:05:36,176 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.ToolManager.ToolFactory [(null)] - System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll' or one of its dependencies. Det går inte att hitta filen.
+File name: 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.b(IToolInfo A_0)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-03-01 09:05:36,181 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.ToolManager.ToolFactory [(null)] - 
+System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll' or one of its dependencies. Det går inte att hitta filen.
+File name: 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.b(IToolInfo A_0)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.CreateTool(IToolInfo toolInfo)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-03-01 09:05:36,182 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll' or one of its dependencies. Det går inte att hitta filen.
+File name: 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.b(IToolInfo A_0)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.CreateTool(IToolInfo toolInfo)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.c(IToolInfo A_0)
+   at Neo.ApplicationFramework.Tools.ToolManager.Tools.b(IToolInfo A_0)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-03-01 09:05:36,184 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: RunTimeAPITestTool
+2015-03-01 09:05:36,187 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: NotifierService
+2015-03-01 09:05:36,188 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: BrandTool
+2015-03-01 09:05:36,191 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: BacklightTool
+2015-03-01 09:05:36,192 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ProjectTool
+2015-03-01 09:05:36,193 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DateTimeEditTool
+2015-03-01 09:05:36,193 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: AuditTrailTool
+2015-03-01 09:05:36,194 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: EmailSenderTool
+2015-03-01 09:05:36,194 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: PrinterToolCF
+2015-03-01 09:05:36,195 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SMSSenderTool
+2015-03-01 09:05:36,195 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DelayInputTool
+2015-03-01 09:05:36,196 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: RecipeTool
+2015-03-01 09:05:36,196 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SystemInformationTool
+2015-03-01 09:05:36,197 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2015-03-01 09:05:36,199 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: RenderableControlTool
+2015-03-01 09:05:36,199 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2015-03-01 09:05:36,201 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: TimerTool
+2015-03-01 09:05:36,202 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DebugLoggerTool
+2015-03-01 09:05:36,202 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2015-03-01 09:05:36,205 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: AlarmTool
+2015-03-01 09:05:36,207 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: TrendDataToolCF
+2015-03-01 09:05:36,208 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: NetworkTool
+2015-03-01 09:05:36,208 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: PrintScreenTool
+2015-03-01 09:05:36,209 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2015-03-01 09:05:36,210 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2015-03-01 09:05:36,210 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2015-03-01 09:05:36,210 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: BindingTool
+2015-03-01 09:05:36,211 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2015-03-01 09:05:36,216 [NeoMainThread] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': Det går inte att hitta den angivna modulen. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2015-03-01 09:05:36,283 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.ToolMgrCF [(null)] - Initializing ToolManager
+2015-03-01 09:05:36,299 [NeoMainThread] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': Det går inte att hitta den angivna modulen. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2015-03-01 09:05:36,709 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.Database.DatabaseManager [(null)] - Database 'Database.sdf' verified without errors
+2015-03-01 09:05:36,744 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Database.DatabaseManager [(null)] - The specified table does not exist. [ AlarmServer ]
+2015-03-01 09:05:36,811 [NeoMainThread] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder [(null)] - Service: IClassicTrueColorResourceFinderService was not found.
+2015-03-01 09:05:36,857 [NeoMainThread] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder [(null)] - Service: IClassicTrueColorResourceFinderService was not found.
+2015-03-01 09:05:36,966 [NeoMainThread] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': Det går inte att hitta den angivna modulen. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2015-03-01 09:05:37,210 [NeoMainThread] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger [(null)] - RenderCapability: PixelShader 2.0 is supported.
+2015-03-01 09:05:37,210 [NeoMainThread] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger [(null)] - RenderCapability: PixelShader 3.0 is supported.
+2015-03-01 09:05:37,210 [NeoMainThread] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger [(null)] - RenderCapability: Tier 2
+2015-03-01 09:06:02,056 [CheckLicenseThread] ERROR Neo.ApplicationFramework.Tools.License.LicenseService [(null)] - Missing license, forcing demo mode.
+2015-03-01 09:06:58,759 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:06:58,759 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:06:58,760 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:06:58,760 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:06:58,760 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Footer]
+[Header Microsoft Windows NT 6.1.7601 Service Pack 1]
+2015-03-01 09:35:00,360 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: PlatformFactoryToolCF
+2015-03-01 09:35:00,374 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: FeatureSecurityToolCF
+2015-03-01 09:35:00,380 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: MessageBoxTool
+2015-03-01 09:35:00,380 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: File Settings
+2015-03-01 09:35:00,388 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: MultiLanguageTool
+2015-03-01 09:35:00,389 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SecurityManagerToolFX
+2015-03-01 09:35:00,390 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DatabaseManagerTool
+2015-03-01 09:35:00,391 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DatabaseTool
+2015-03-01 09:35:00,391 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ObjectSerializationToolCF
+2015-03-01 09:35:00,393 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SystemTagToolCF
+2015-03-01 09:35:00,466 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DeviceManagerToolCF
+2015-03-01 09:35:00,467 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: Run
+2015-03-01 09:35:00,467 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DriverPropertiesToolCF
+2015-03-01 09:35:00,470 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ScreenManagerToolFull
+2015-03-01 09:35:00,472 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SymbolTool
+2015-03-01 09:35:00,473 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: MessageFilterTool
+2015-03-01 09:35:00,494 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: LicenseToolCF
+2015-03-01 09:35:00,507 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: OpcClientTool
+2015-03-01 09:35:00,508 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: CommandLineTool
+2015-03-01 09:35:00,508 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.ToolManager.ToolFactory [(null)] - System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll' or one of its dependencies. Det går inte att hitta filen.
+File name: 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.b(IToolInfo A_0)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-03-01 09:35:00,514 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.ToolManager.ToolFactory [(null)] - 
+System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll' or one of its dependencies. Det går inte att hitta filen.
+File name: 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.b(IToolInfo A_0)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.CreateTool(IToolInfo toolInfo)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-03-01 09:35:00,515 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll' or one of its dependencies. Det går inte att hitta filen.
+File name: 'file:///C:\Users\pappa\Documents\GitHub\PID_regulator\Coca_Cola_Tank\Temp\Output\ToolsTestRunner.dll'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.b(IToolInfo A_0)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.CreateTool(IToolInfo toolInfo)
+   at Neo.ApplicationFramework.Tools.ToolManager.ToolFactory.c(IToolInfo A_0)
+   at Neo.ApplicationFramework.Tools.ToolManager.Tools.b(IToolInfo A_0)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-03-01 09:35:00,517 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: RunTimeAPITestTool
+2015-03-01 09:35:00,519 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: NotifierService
+2015-03-01 09:35:00,520 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: BrandTool
+2015-03-01 09:35:00,523 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: BacklightTool
+2015-03-01 09:35:00,524 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ProjectTool
+2015-03-01 09:35:00,524 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DateTimeEditTool
+2015-03-01 09:35:00,525 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: AuditTrailTool
+2015-03-01 09:35:00,525 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: EmailSenderTool
+2015-03-01 09:35:00,526 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: PrinterToolCF
+2015-03-01 09:35:00,526 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SMSSenderTool
+2015-03-01 09:35:00,527 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DelayInputTool
+2015-03-01 09:35:00,527 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: RecipeTool
+2015-03-01 09:35:00,528 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: SystemInformationTool
+2015-03-01 09:35:00,528 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: TimeInformationToolCF
+2015-03-01 09:35:00,530 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: RenderableControlTool
+2015-03-01 09:35:00,530 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: ProjectInformationToolCF
+2015-03-01 09:35:00,531 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: TimerTool
+2015-03-01 09:35:00,531 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: DebugLoggerTool
+2015-03-01 09:35:00,532 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: NonVolatileToolCF
+2015-03-01 09:35:00,537 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: AlarmTool
+2015-03-01 09:35:00,538 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: TrendDataToolCF
+2015-03-01 09:35:00,539 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: NetworkTool
+2015-03-01 09:35:00,539 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: PrintScreenTool
+2015-03-01 09:35:00,541 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: CachedDataItemToolCF
+2015-03-01 09:35:00,541 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: StructuredTypesToolCF
+2015-03-01 09:35:00,542 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: WebServerConfigToolCF
+2015-03-01 09:35:00,542 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: BindingTool
+2015-03-01 09:35:00,543 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.Tools [(null)] - Loaded tool: KeyPanelConfigToolCF
+2015-03-01 09:35:00,548 [NeoMainThread] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': Det går inte att hitta den angivna modulen. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2015-03-01 09:35:00,621 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.ToolManager.ToolMgrCF [(null)] - Initializing ToolManager
+2015-03-01 09:35:00,636 [NeoMainThread] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': Det går inte att hitta den angivna modulen. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2015-03-01 09:35:00,967 [NeoMainThread] INFO  Neo.ApplicationFramework.Tools.Database.DatabaseManager [(null)] - Database 'Database.sdf' verified without errors
+2015-03-01 09:35:01,000 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Database.DatabaseManager [(null)] - The specified table does not exist. [ AlarmServer ]
+2015-03-01 09:35:01,068 [NeoMainThread] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder [(null)] - Service: IClassicTrueColorResourceFinderService was not found.
+2015-03-01 09:35:01,118 [NeoMainThread] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder [(null)] - Service: IClassicTrueColorResourceFinderService was not found.
+2015-03-01 09:35:01,242 [NeoMainThread] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx [(null)] - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': Det går inte att hitta den angivna modulen. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2015-03-01 09:35:01,490 [NeoMainThread] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger [(null)] - RenderCapability: PixelShader 2.0 is supported.
+2015-03-01 09:35:01,490 [NeoMainThread] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger [(null)] - RenderCapability: PixelShader 3.0 is supported.
+2015-03-01 09:35:01,490 [NeoMainThread] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger [(null)] - RenderCapability: Tier 2
+2015-03-01 09:35:26,345 [CheckLicenseThread] ERROR Neo.ApplicationFramework.Tools.License.LicenseService [(null)] - Missing license, forcing demo mode.
+2015-03-01 09:38:39,838 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:38:39,838 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:38:39,839 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:38:39,839 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2015-03-01 09:38:39,839 [NeoMainThread] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController [(null)] - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Footer]

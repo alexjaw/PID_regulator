@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrendDataSources>
+  <TrendViewer Name="Screen1.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="584" TimeRange="PT1M">
+    <GlobalDataItems>
+      <GlobalDataItem DataSourceName="Tags.SP_tank" />
+      <GlobalDataItem DataSourceName="Tags.PV_tank" />
+      <GlobalDataItem DataSourceName="Tags.Inflöde" />
+    </GlobalDataItems>
+  </TrendViewer>
+</TrendDataSources>

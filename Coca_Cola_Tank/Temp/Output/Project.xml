@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.15.5751.0">
+  <Guid>ae8f7367-8918-4d37-bae5-cecd7efe11a8</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2014-10-16T23:20:11.31872+02:00" Length="954" />
+    <ProjectFile Name="Database.neo" ModifiedDate="2014-10-16T23:20:11.7057421+02:00" Length="393" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2014-10-16T23:20:11.7647455+02:00" Length="408" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2015-02-27T20:55:00.0956235+01:00" Length="8502" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2015-03-01T09:05:33.2054269+01:00" Length="12526" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2015-03-01T07:45:39.5715478+01:00" Length="75678" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2015-03-01T07:45:39.5795482+01:00" Length="722" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2014-10-16T23:20:12.4667856+02:00" Length="6339" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2015-02-27T20:53:50.6956541+01:00" Length="407" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2014-10-16T23:20:12.54279+02:00" Length="541" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2014-10-16T23:20:12.6027934+02:00" Length="419" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2015-03-01T08:07:38.5209874+01:00" Length="407" />
+    <ProjectFile Name="Symbols\lamp1.lib" ModifiedDate="2014-10-15T02:26:18+02:00" Length="39668" />
+    <ProjectFile Name="Symbols\lamp1off.lib" ModifiedDate="2014-10-15T02:26:18+02:00" Length="37782" />
+    <ProjectFile Name="Symbols\rocker switch2 on.lib" ModifiedDate="2014-10-15T02:26:18+02:00" Length="11957" />
+    <ProjectFile Name="Symbols\rocker switch2 off.lib" ModifiedDate="2014-10-15T02:26:18+02:00" Length="11891" />
+    <ProjectFile Name="Symbols\rocker switch off.lib" ModifiedDate="2014-10-15T02:26:18+02:00" Length="11971" />
+    <ProjectFile Name="Symbols\rocker switch on.lib" ModifiedDate="2014-10-15T02:26:18+02:00" Length="11470" />
+    <ProjectFile Name="Screen1.neoxaml" ModifiedDate="2015-03-01T09:05:33.311433+01:00" Length="700" />
+    <ProjectFile Name="Screen1.Script.cs" ModifiedDate="2015-03-01T09:05:33.3144332+01:00" Length="728" />
+    <ProjectFile Name="Screen1.xaml" ModifiedDate="2015-03-01T09:05:33.4774425+01:00" Length="37822" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2014-10-16T23:20:13.7768606+02:00" Length="850" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2015-03-01T07:45:39.6435519+01:00" Length="29266" />
+  </ProjectFiles>
+</Project>

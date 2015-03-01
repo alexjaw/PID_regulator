@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.15.5751.0'?>
+<nacs:ScreenWindow Topmost="False" Title="Screen1" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="800, 600" PopupScreen="False" StyleName="Default" Width="800" Height="600" nai:SecurityProperties.SecurityGroupsRequired="None" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nact="clr-namespace:Neo.ApplicationFramework.Controls.Trend;assembly=Controls" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nacc1="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=Common" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Controls.Blink;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacd2="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nac2="clr-namespace:Neo.ApplicationFramework.Common;assembly=CommonCF" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.Screen1">
+  <nai:ActionProperties.Actions>
+    <nai:ActionList />
+  </nai:ActionProperties.Actions>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="600" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto">
+    <nact:TrendViewer ValueScaleMaximum="100" ValueScaleMinimum="0" ValueScaleMajorTickCount="11" ValueScaleMinorTickCount="0" TimeScaleMajorTickCount="0" TimeRange="00:01:00" TimeOffset="00:00:00" GridVisible="Visible" Width="687.606743064466" Height="293.363125525419" Background="#FF000000" FontSize="11" ScaleVisible="Visible" IndicatorMargin="52,20.8358769081014,52,47" Name="m_TrendViewer" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="55.5692772674323" Canvas.Top="284.170080969869" Style="{nac:StyleMarkupExtension Black}">
+      <nact:TrendViewer.Curves>
+        <nact:Curve DisplayName="Curve1" Color="Red" Thickness="2" DataSourceName="Tags.SP_tank" ValueScaleMaximumDataConnection="{x:Null}" ValueScaleMinimumDataConnection="{x:Null}" ExpressionName="{x:Null}" Visibility="Visible" />
+        <nact:Curve DisplayName="Curve2" Color="0, 183, 239" Thickness="2" DataSourceName="Tags.PV_tank" ValueScaleMaximumDataConnection="{x:Null}" ValueScaleMinimumDataConnection="{x:Null}" ExpressionName="{x:Null}" Visibility="Visible" />
+        <nact:Curve DisplayName="Curve3" Color="34, 177, 76" Thickness="2" DataSourceName="Tags.Inflöde" ValueScaleMaximumDataConnection="{x:Null}" ValueScaleMinimumDataConnection="{x:Null}" ExpressionName="{x:Null}" Visibility="Visible" />
+      </nact:TrendViewer.Curves>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nact:TrendViewer>
+    <nacc:Rectangle Fill="#FF5B92D6" Stroke="#FF000000" Name="m_Rectangle" Width="396.27423805169" Height="253.841832240906" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="307.420145453702" Canvas.Top="22.3282487289623" />
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric1" Width="100" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="14" KeyboardNavigation.TabNavigation="None" Canvas.Left="504.320738020441" Canvas.Top="106.771758826402">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Kc].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+      <nac1:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac1:AnalogNumericFX.Background>
+    </nac1:AnalogNumericFX>
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="100" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" KeyboardNavigation.TabNavigation="None" Canvas.Left="504.320738020441" Canvas.Top="144.771758826402">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Ti].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+      <nac1:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac1:AnalogNumericFX.Background>
+    </nac1:AnalogNumericFX>
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric3" Width="100" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="15" KeyboardNavigation.TabNavigation="None" Canvas.Left="504.320738020441" Canvas.Top="182.486217424008">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Td].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+      <nac1:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac1:AnalogNumericFX.Background>
+    </nac1:AnalogNumericFX>
+    <nac1:Label Text="100" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="318.555185876761" Canvas.Top="106.701758826402">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="100" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nac1:Label Text="Td" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="23" Canvas.Left="458.587404687108" Canvas.Top="182.416217424008">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="Td" />
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label Text="Ti" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="465.070738020441" Canvas.Top="144.701758826402">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="Ti" />
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric4" Width="100" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" KeyboardNavigation.TabNavigation="None" Canvas.Left="504.320738020441" Canvas.Top="62.6767630297562">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Inflöde].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+      <nac1:AnalogNumericFX.Background>
+        <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFFFFFFF" />
+              <GradientStop Color="#FFD4D0C8" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac1:AnalogNumericFX.Background>
+    </nac1:AnalogNumericFX>
+    <nacc:Slider MajorTickCount="3" MinorTickCount="0" IndicatorColor="#FF008000" Background="#FF5B92D6" BorderBrush="#FF008000" FontSize="12" Width="159.21380783607" Height="23.6968985301058" ScaleVisible="Hidden" Transparent="Visible" IndicatorMargin="13,5,13,5" FontFamily="Tahoma" Name="m_Slider" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="11" Canvas.Left="557.682455664336" Canvas.Top="171.773489346004" Style="{nac:StyleMarkupExtension Vintage_Compact}">
+      <nacc:Slider.Resources>
+        <ResourceDictionary>
+          <nacd1:BoolDynamicsConverter x:Key="VisibleDynamicsValueConverter" DefaultValue="True" TrueValue="0" />
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacc:Slider.Resources>
+      <nacc:Slider.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.HMI_Out].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacc:Slider.Value>
+      <nacb1:BlinkProperties.VisibleDynamicsValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.HMI_PID_Auto].Value" Converter="{StaticResource VisibleDynamicsValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Boolean>True</s:Boolean>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacb1:BlinkProperties.VisibleDynamicsValue>
+      <nacc:Slider.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="-90" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nacc:Slider.RenderTransform>
+    </nacc:Slider>
+    <nacc:Slider MajorTickCount="3" MinorTickCount="1" IndicatorColor="#FF4BACC6" Background="{x:Null}" BorderBrush="#FF4BACC6" FontSize="12" Width="159.738507145701" Height="29.3156276270961" ScaleVisible="Hidden" Transparent="Visible" IndicatorMargin="13,5,13,5" FontFamily="Tahoma" Name="m_Slider1" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="356.06033730071" Canvas.Top="169.365462590151" Style="{nac:StyleMarkupExtension Vintage_Compact}">
+      <nacc:Slider.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacc:Slider.Resources>
+      <nacc:Slider.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.PV_tank].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacc:Slider.Value>
+      <nacc:Slider.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="-90" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nacc:Slider.RenderTransform>
+    </nacc:Slider>
+    <nacc:Slider MajorTickCount="3" MinorTickCount="1" IndicatorColor="#FFFF0000" Background="{x:Null}" BorderBrush="#FFFF0000" FontSize="12" Width="159.738507145701" Height="29.3156276270961" ScaleVisible="Hidden" Transparent="Visible" IndicatorMargin="13,5,13,5" FontFamily="Tahoma" Name="m_Slider2" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="9" Canvas.Left="316.146066545728" Canvas.Top="170.029150037609" Style="{nac:StyleMarkupExtension Vintage_Compact}">
+      <nacc:Slider.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacc:Slider.Resources>
+      <nacc:Slider.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SP_tank].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacc:Slider.Value>
+      <nacc:Slider.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="-90" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nacc:Slider.RenderTransform>
+    </nacc:Slider>
+    <Line X1="374.875547445256" Y1="252.73" X2="658.3" Y2="252.73" Stroke="#FF000000" Name="m_Line" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" />
+    <Line X1="376.016270582244" Y1="184.023276403699" X2="658.3" Y2="184.023276403699" Stroke="#FF000000" Name="m_Line1" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" />
+    <Line X1="374.305185876761" Y1="121.271758826402" X2="658.3" Y2="121.271758826402" Stroke="#FF000000" Name="m_Line2" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" />
+    <nac1:Label Text="PV" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text3" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="16" Canvas.Left="421.271777060012" Canvas.Top="73.6067630297562">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="PV" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nac1:Label Text="50" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="17" Canvas.Left="329.471852543428" Canvas.Top="168.953276403699">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="50" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nac1:Label Text="0" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text5" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="18" Canvas.Left="340.388519210095" Canvas.Top="237.66">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="0" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nac1:Label Text="Kc" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="19" Canvas.Left="465.334071353775" Canvas.Top="111.701758826402">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="Kc" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nac1:Label Text="OUT" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="20" Canvas.Left="640.414383505391" Canvas.Top="73.6067630297562">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="OUT" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nac1:Label Text="SP" Background="#FF5B92D6" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="21" Canvas.Left="376.101777060012" Canvas.Top="73.6067630297562">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="SP" />
+      </nac1:Label.TextIntervalMapper>
+      <nac1:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="0" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac1:Label.RenderTransform>
+    </nac1:Label>
+    <nacc:Rectangle Fill="#FF5B92D6" Stroke="#FF5B92D6" Name="m_Rectangle1" Width="37.0735019521305" Height="107.798336445426" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="12" Canvas.Left="459.247236068311" Canvas.Top="105.87259060369" />
+    <nacc:LinearMeter Orientation="Horizontal" MinorTickCount="1" IndicatorColor="#FF008000" FontSize="12" Width="147.257525083611" Height="27.1822742474948" ScaleVisible="Hidden" IndicatorMargin="7,7,7,7" FontFamily="Tahoma" Name="m_LinearMeter" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="24" Canvas.Left="594.100183429365" Canvas.Top="171.09582672741" Style="{nac:StyleMarkupExtension Vintage_Compact}">
+      <nacc:LinearMeter.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacc:LinearMeter.Resources>
+      <nacc:LinearMeter.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Inflöde].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacc:LinearMeter.Value>
+      <nacc:LinearMeter.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform ScaleX="1" ScaleY="1" />
+              <RotateTransform Angle="270" />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nacc:LinearMeter.RenderTransform>
+    </nacc:LinearMeter>
+    <nacs1:Symbol MultiPicture="True" Name="m_MultiPicture1" Width="48.2358035967999" Height="71.982124684749" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="25" Canvas.Left="122.417298937783" Canvas.Top="184.203937657625">
+      <nacs1:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs1:Symbol.Resources>
+      <nacs1:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.HMI_Start_Stopp].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs1:Symbol.Value>
+      <nacs1:Symbol.SymbolIntervalMapper>
+        <nacd2:SymbolIntervalMapper>
+          <nacd2:SymbolIntervalMapper.Intervals>
+            <nacd2:SymbolIntervalList>
+              <nacd2:SymbolInterval>
+                <nacd2:SymbolInterval.Value>
+                  <nac2:MultiSymbolItem SymbolName="rocker switch2 off" Transparent="False" />
+                </nacd2:SymbolInterval.Value>
+              </nacd2:SymbolInterval>
+              <nacd2:SymbolInterval Start="1" End="1">
+                <nacd2:SymbolInterval.Value>
+                  <nac2:MultiSymbolItem SymbolName="rocker switch2 on" Transparent="False" />
+                </nacd2:SymbolInterval.Value>
+              </nacd2:SymbolInterval>
+            </nacd2:SymbolIntervalList>
+          </nacd2:SymbolIntervalMapper.Intervals>
+        </nacd2:SymbolIntervalMapper>
+      </nacs1:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.HMI_Start_Stopp" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nacs1:Symbol>
+    <nac1:Label Text="Sim" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text10" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="26" Canvas.Left="123.143102534583" Canvas.Top="158.71676651977">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="Sim" />
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Group Name="m_Group" Width="55.6966666666667" Height="97.469295822604" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="27" Canvas.Left="180.244832258795" Canvas.Top="158.71676651977">
+      <nac1:Label Text="Auto" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text9" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="29" Canvas.Left="0" Canvas.Top="0">
+        <nac1:Label.TextDecorations>
+          <TextDecorationCollection />
+        </nac1:Label.TextDecorations>
+        <nac1:Label.TextIntervalMapper>
+          <nacd1:StringIntervalMapper DefaultValue="Auto" />
+        </nac1:Label.TextIntervalMapper>
+      </nac1:Label>
+      <nacs1:Symbol MultiPicture="True" Name="m_MultiPicture" Width="48.4987936605118" Height="71.982124684749" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="0" Canvas.Top="25.4871711378551">
+        <nacs1:Symbol.Resources>
+          <ResourceDictionary>
+            <nacc1:VariantValueConverter x:Key="ValueConverter" />
+          </ResourceDictionary>
+        </nacs1:Symbol.Resources>
+        <nacs1:Symbol.Value>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.HMI_PID_Auto].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+        </nacs1:Symbol.Value>
+        <nacs1:Symbol.SymbolIntervalMapper>
+          <nacd2:SymbolIntervalMapper>
+            <nacd2:SymbolIntervalMapper.Intervals>
+              <nacd2:SymbolIntervalList>
+                <nacd2:SymbolInterval>
+                  <nacd2:SymbolInterval.Value>
+                    <nac2:MultiSymbolItem SymbolName="rocker switch2 off" Transparent="False" />
+                  </nacd2:SymbolInterval.Value>
+                </nacd2:SymbolInterval>
+                <nacd2:SymbolInterval Start="1" End="1">
+                  <nacd2:SymbolInterval.Value>
+                    <nac2:MultiSymbolItem SymbolName="rocker switch2 on" Transparent="False" />
+                  </nacd2:SymbolInterval.Value>
+                </nacd2:SymbolInterval>
+              </nacd2:SymbolIntervalList>
+            </nacd2:SymbolIntervalMapper.Intervals>
+          </nacd2:SymbolIntervalMapper>
+        </nacs1:Symbol.SymbolIntervalMapper>
+        <nacs1:Symbol.RenderTransform>
+          <TransformGroup>
+            <TransformGroup.Children>
+              <TransformCollection>
+                <ScaleTransform ScaleX="1" ScaleY="1" />
+                <RotateTransform Angle="0" />
+              </TransformCollection>
+            </TransformGroup.Children>
+          </TransformGroup>
+        </nacs1:Symbol.RenderTransform>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList>
+            <nata:Action Name="Toggle Tag">
+              <nata:Action.ActionMethodInfo>
+                <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.HMI_PID_Auto" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+              </nata:Action.ActionMethodInfo>
+            </nata:Action>
+          </nai:ActionList>
+        </nai:ActionProperties.Actions>
+      </nacs1:Symbol>
+    </nac1:Group>
+    <nac1:Group Name="m_Group1" Width="47.51" Height="94.0132334802296" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="28" Canvas.Left="239.986435867916" Canvas.Top="158.71676651977">
+      <nac1:Label Text="Rst" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text11" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" Canvas.Left="4.47999999999999" Canvas.Top="0">
+        <nac1:Label.TextDecorations>
+          <TextDecorationCollection />
+        </nac1:Label.TextDecorations>
+        <nac1:Label.TextIntervalMapper>
+          <nacd1:StringIntervalMapper DefaultValue="Rst" />
+        </nac1:Label.TextIntervalMapper>
+      </nac1:Label>
+      <nacs1:Symbol MultiPicture="True" Name="m_MultiPicture2" Width="47.51" Height="65.07" RenderTransformOrigin="1.51684370257968,-0.14993878633339" Visibility="Visible" Panel.ZIndex="31" Canvas.Left="0" Canvas.Top="28.9432334802296">
+        <nacs1:Symbol.Resources>
+          <ResourceDictionary>
+            <nacc1:VariantValueConverter x:Key="ValueConverter" />
+          </ResourceDictionary>
+        </nacs1:Symbol.Resources>
+        <nacs1:Symbol.Value>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.HMI_Tank_Reset].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+        </nacs1:Symbol.Value>
+        <nacs1:Symbol.SymbolIntervalMapper>
+          <nacd2:SymbolIntervalMapper>
+            <nacd2:SymbolIntervalMapper.Intervals>
+              <nacd2:SymbolIntervalList>
+                <nacd2:SymbolInterval>
+                  <nacd2:SymbolInterval.Value>
+                    <nac2:MultiSymbolItem SymbolName="rocker switch off" Transparent="False" />
+                  </nacd2:SymbolInterval.Value>
+                </nacd2:SymbolInterval>
+                <nacd2:SymbolInterval Start="1" End="1">
+                  <nacd2:SymbolInterval.Value>
+                    <nac2:MultiSymbolItem SymbolName="rocker switch on" Transparent="False" />
+                  </nacd2:SymbolInterval.Value>
+                </nacd2:SymbolInterval>
+              </nacd2:SymbolIntervalList>
+            </nacd2:SymbolIntervalMapper.Intervals>
+          </nacd2:SymbolIntervalMapper>
+        </nacs1:Symbol.SymbolIntervalMapper>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList>
+            <nata:Action Name="Set Tag">
+              <nata:Action.ActionMethodInfo>
+                <nata:ActionMethodInfo Name="SetTag" ObjectName="Tags.HMI_Tank_Reset" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+              </nata:Action.ActionMethodInfo>
+            </nata:Action>
+            <nata:Action Name="Reset Tag">
+              <nata:Action.ActionMethodInfo>
+                <nata:ActionMethodInfo Name="ResetTag" ObjectName="Tags.HMI_Tank_Reset" EventName="MouseUp" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+              </nata:Action.ActionMethodInfo>
+            </nata:Action>
+          </nai:ActionList>
+        </nai:ActionProperties.Actions>
+      </nacs1:Symbol>
+    </nac1:Group>
+    <nacc:Rectangle Fill="#FFFFFF00" Stroke="#FF000000" Name="m_Rectangle2" Width="192" Height="253.351248483894" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="107.420145453702" Canvas.Top="22.8188324859748" />
+    <nac1:Label Text="Simulering Tank" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text12" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="29" Canvas.Left="122.417298937783" Canvas.Top="35.9733333333333">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="Simulering Tank" />
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label Text="PID regulator" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text13" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="326.168443726679" Canvas.Top="35.9733333333333">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="PID regulator" />
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>
